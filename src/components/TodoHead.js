@@ -6,7 +6,6 @@ const TodoHeadBlock = styled.div`
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 24px;
-
     border-bottom: 1px solid #e9ecef;
     
     h1 {
@@ -14,7 +13,6 @@ const TodoHeadBlock = styled.div`
         font-size: 36px;
         color: #343a40;
     }
-
     .day {
         margin-top: 4px;
         color: #868e96;
