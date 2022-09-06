@@ -15,7 +15,7 @@ function todoReducer(state, action) {
         case 'REMOVE':
             return state.filter(todo => todo.id !== action.id);
         default:
-            throw new Error('Unhandled action type: ${action.type}');
+            throw new Error('');
     }
 }
 
